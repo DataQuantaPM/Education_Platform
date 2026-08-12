@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>LearnHub | Free Programming Learning Platform</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html" class="logo"> LearnHub </a>
+
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+
+            <li>
+              <a href="courses.html">Courses</a>
+            </li>
+
+            <li>
+              <a href="library.html">Library</a>
+            </li>
+
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+
+          <button class="menu-toggle" aria-label="Open Menu">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+<section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <span class="hero-tag"> Learn Anytime, Anywhere </span>
+
+              <h1>Learn Programming with Trusted Free Resources</h1>
+
+              <p>
+                LearnHub brings together programming courses, educational
+                videos, and digital books from trusted platforms to help you
+                learn Computer Science more effectively.
+              </p>
+      <!-- Audio -->
+<div class="hero-audio" aria-label="LearnHub audio introduction">
+                <div class="hero-audio-icon" aria-hidden="true">
+                  <i class="bi bi-headphones"></i>
+                </div>
+
+                <div class="hero-audio-content">
+                  <span class="hero-audio-label">Audio Introduction</span>
+                  <audio
+                    id="learnhub-audio"
+                    controls
+                    autoplay
+                    preload="auto"
+                    aria-label="LearnHub audio introduction"
+                  >
+                    <source
+                      src="assets/audio/learnhub-intro.mp3"
+                      type="audio/mpeg"
+                    />
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+
+              <div class="hero-buttons">
+                <a href="courses.html" class="btn btn-primary">
+                  Explore Courses
+                </a>
+
+                <a href="#intro-video" class="link">
+                  Watch Introduction
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image">
+              <img
+                src="assets/images/hero.png"
+                alt="Programming Learning Illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Statistics -->
+<section class="statistics">
+        <div class="container">
+          <div class="stats-container">
+            <div class="stat-item">
+              <i class="bi bi-code-slash"></i>
+
+              <h3>4</h3>
+
+              <p>Programming Courses</p>
+            </div>
+
+            <div class="stat-item">
+              <i class="bi bi-book"></i>
+
+              <h3>10+</h3>
+
+              <p>Free Digital Books</p>
+            </div>
+
+            <div class="stat-item">
+              <i class="bi bi-play-circle"></i>
+
+              <h3>20+</h3>
+
+              <p>Learning Videos</p>
+            </div>
+
+            <div class="stat-item">
+              <i class="bi bi-globe"></i>
+
+              <h3>5</h3>
+
+              <p>Trusted Platforms</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Courses -->
+<section class="courses">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-tag"> Featured Courses </span>
+
+            <h2>Start Learning Programming</h2>
+
+            <p>
+              Discover carefully selected programming courses from trusted
+              learning platforms. Build your Computer Science foundation step by
+              step through structured learning paths.
+            </p>
+          </div>
+
+          <div class="course-container">
+            <article class="course-card">
+              <img
+                src="assets/images/computer science.jpg"
+                alt="Computer Science"
+              />
+
+              <div class="course-content">
+                <span class="course-level"> Learning Path </span>
+
+                <h3>Computer Science Fundamentals</h3>
+
+                <p>
+                  Learn Computer Science through Harvard CS50 with eight
+                  structured sessions for beginners.
+                </p>
+
+                <div class="course-info">
+                  <span>
+                    <i class="bi bi-collection-play"></i>
+
+                    8 Sessions
+                  </span>
+
+                  <span> Harvard CS50 </span>
+                </div>
+
+                <a href="course-detail.html" class="course-link">
+                  View Course
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <img src="assets/images/data.jpg" alt="Database Fundamentals" />
+
+              <div class="course-content">
+                <span class="course-level"> Beginner </span>
+
+                <h3>Database Fundamentals</h3>
+
+                <p>
+                  Learn SQL and relational databases through Harvard CS50 SQL.
+                </p>
+
+                <div class="course-info">
+                  <span>
+                    <i class="bi bi-youtube"></i>
+
+                    YouTube
+                  </span>
+
+                  <span> Harvard </span>
+                </div>
+
+                <a
+                  href="https://youtu.be/WXk7yDqsKxs"
+                  target="_blank"
+                  class="course-link"
+                >
+                  Start Learning
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="course-card">
+              <img src="assets/images/cybersecurity.jpg" alt="Cybersecurity" />
+
+              <div class="course-content">
+                <span class="course-level"> Beginner </span>
+
+                <h3>Cybersecurity Basics</h3>
+
+                <p>
+                  Understand cybersecurity concepts and essential security
+                  practices with Harvard CS50.
+                </p>
+
+                <div class="course-info">
+                  <span>
+                    <i class="bi bi-youtube"></i>
+
+                    YouTube
+                  </span>
+
+                  <span> Harvard </span>
+                </div>
+
+                <a
+                  href="https://youtu.be/9HOpanT0GRs"
+                  target="_blank"
+                  class="course-link"
+                >
+                  Start Learning
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Library -->
+<section class="library">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-tag"> Digital Library </span>
+
+            <h2>Free Programming Books</h2>
+
+            <p>
+              Explore free digital books to strengthen your understanding of
+              programming, algorithms, databases, mathematics, and computer
+              science fundamentals.
+            </p>
+          </div>
+
+          <div class="book-container">
+            <article class="book-card">
+              <img
+                src="assets/images/book-calculus.png"
+                alt="Calculus Made Easy"
+              />
+
+              <div class="book-content">
+                <span class="book-category"> Mathematics </span>
+
+                <h3>Calculus Made Easy</h3>
+
+                <p>
+                  A beginner-friendly introduction to calculus written in a
+                  simple and practical style.
+                </p>
+
+                <a href="book-detail.html" class="book-link">
+                  Read Book
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="book-card">
+              <img
+                src="assets/images/book-allenB.png"
+                alt="Python Crash Course"
+              />
+
+              <div class="book-content">
+                <span class="book-category"> Programming </span>
+
+                <h3>Python Crash Course</h3>
+
+                <p>
+                  Learn Python programming from the basics with practical
+                  exercises and projects.
+                </p>
+
+                <a href="book-detail.html" class="book-link">
+                  Read Book
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="book-card">
+              <img
+                src="assets/images/book-allenB.png"
+                alt="Introduction to Algorithms"
+              />
+
+              <div class="book-content">
+                <span class="book-category"> Algorithms </span>
+
+                <h3>Introduction to Algorithms</h3>
+
+                <p>
+                  Learn fundamental algorithms and data structures used in
+                  modern software development.
+                </p>
+
+                <a href="book-detail.html" class="book-link">
+                  Read Book
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="book-card">
+              <img src="assets/images/book-allenB.png" alt="SQL Guide" />
+
+              <div class="book-content">
+                <span class="book-category"> Database </span>
+
+                <h3>SQL Guide</h3>
+
+                <p>
+                  Master SQL queries and relational database concepts through
+                  practical examples.
+                </p>
+
+                <a href="book-detail.html" class="book-link">
+                  Read Book
+
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- Video -->
+<section class="intro-video" id="intro-video">
+        <div class="container">
+          <div class="intro-content">
+            <div class="intro-text">
+              <span class="section-tag"> Introduction </span>
+
+              <h2>See How LearnHub Helps You Learn Programming</h2>
+
+              <p>
+                Watch a short introduction to discover how LearnHub brings
+                together free programming courses, educational videos, and
+                digital books from trusted learning platforms to support your
+                learning journey.
+              </p>
+
+              <a
+                href="https://www.youtube.com/watch?v=UuIEbpQms8o"
+                target="_blank"
+                class="link"
+              >
+                Watch Introduction
+
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+
+            <div class="intro-player">
+              <iframe
+                src="https://www.youtube.com/embed/UuIEbpQms8o"
+                title="LearnHub Introduction"
+                loading="lazy"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-column">
+            <a href="index.html" class="footer-logo"> LearnHub </a>
+
+            <p>
+              LearnHub is a free learning platform that helps students discover
+              trusted programming courses, educational videos, and digital books
+              from reliable learning resources.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h3>Explore</h3>
+
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+
+              <li>
+                <a href="courses.html">Courses</a>
+              </li>
+
+              <li>
+                <a href="library.html">Library</a>
+              </li>
+
+              <li>
+                <a href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Learning Resources</h3>
+
+            <ul>
+              <li>
+                <a href="https://cs50.harvard.edu/" target="_blank">
+                  Harvard CS50
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.freecodecamp.org/" target="_blank">
+                  freeCodeCamp
+                </a>
+              </li>
+
+              <li>
+                <a href="https://developer.mozilla.org/" target="_blank">
+                  MDN Web Docs
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.gutenberg.org/" target="_blank">
+                  Project Gutenberg
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact</h3>
+
+            <ul>
+              <li>
+                <i class="bi bi-envelope-fill"></i>
+
+                learnhub@email.com
+              </li>
+
+              <li>
+                <i class="bi bi-github"></i>
+
+                github.com/learnhub
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 LearnHub. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

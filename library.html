@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Library | LearnHub</title>
+      <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+      <!-- Icons -->
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+      <!-- Styles -->
+<link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <a href="index.html" class="logo"> LearnHub </a>
+
+          <ul class="nav-links">
+            <li>
+              <a href="index.html"> Home </a>
+            </li>
+
+            <li>
+              <a href="courses.html"> Courses </a>
+            </li>
+
+            <li>
+              <a href="library.html" class="active"> Library </a>
+            </li>
+
+            <li>
+              <a href="about.html"> About </a>
+            </li>
+          </ul>
+
+          <button class="menu-toggle">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Header -->
+<section class="page-header">
+        <div class="container">
+          <h1>Recommended Free Books</h1>
+
+          <p>
+            Explore carefully selected free books from trusted publishers and
+            public domain libraries to support your learning journey.
+          </p>
+        </div>
+      </section>
+      <!-- Search -->
+<section class="library-search">
+        <div class="container">
+          <form class="search-box search-form" role="search">
+            <i class="bi bi-search"></i>
+
+            <input
+              type="search"
+              placeholder="Search books..."
+              aria-label="Search books"
+              autocomplete="off"
+            />
+
+            <button type="submit" class="search-submit" aria-label="Submit search">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Programming Books -->
+<section class="library">
+        <div class="container">
+          <div class="section-title">
+            <h2>Programming Books</h2>
+
+            <p>Free programming books from trusted publishers.</p>
+          </div>
+
+          <div class="book-container">
+<div class="book-card">
+              <img src="assets/images/book-allenB.png" alt="Think Python" />
+
+              <div class="book-content">
+                <span class="book-source"> Green Tea Press </span>
+
+                <h3>Think Python</h3>
+
+                <p>Allen B. Downey</p>
+
+                <a
+                  href="https://greenteapress.com/wp/think-python-2e/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img src="assets/images/book-allenB.png" alt="Think Java" />
+
+              <div class="book-content">
+                <span class="book-source"> Green Tea Press </span>
+
+                <h3>Think Java</h3>
+
+                <p>Allen B. Downey</p>
+
+                <a
+                  href="https://greenteapress.com/wp/think-java/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img
+                src="assets/images/book-automate.png"
+                alt="Automate the Boring Stuff"
+              />
+
+              <div class="book-content">
+                <span class="book-source"> Invent with Python </span>
+
+                <h3>Automate the Boring Stuff</h3>
+
+                <p>Al Sweigart</p>
+
+                <a
+                  href="https://automatetheboringstuff.com/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img
+                src="assets/images/book-eloq.png"
+                alt="Eloquent JavaScript"
+              />
+
+              <div class="book-content">
+                <span class="book-source"> Eloquent JavaScript </span>
+
+                <h3>Eloquent JavaScript</h3>
+
+                <p>Marijn Haverbeke</p>
+
+                <a
+                  href="https://eloquentjavascript.net/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Computer Science -->
+<section class="library">
+        <div class="container">
+          <div class="section-title">
+            <h2>Mathematics & Computer Science</h2>
+
+            <p>Free books for mathematics and computer science fundamentals.</p>
+          </div>
+
+          <div class="book-container">
+<div class="book-card">
+              <img
+                src="assets/images/book-calculus.png"
+                alt="Calculus Made Easy"
+              />
+
+              <div class="book-content">
+                <span class="book-source"> Project Gutenberg </span>
+
+                <h3>Calculus Made Easy</h3>
+
+                <p>Silvanus P. Thompson</p>
+
+                <a
+                  href="https://www.gutenberg.org/ebooks/33283"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Classic Literature -->
+<section class="library">
+        <div class="container">
+          <div class="section-title">
+            <h2>Classic Literature</h2>
+
+            <p>Timeless literary works available in the public domain.</p>
+          </div>
+
+          <div class="book-container">
+<div class="book-card">
+              <img
+                src="assets/images/book-pride.png"
+                alt="Pride and Prejudice"
+              />
+
+              <div class="book-content">
+                <span class="book-source"> Project Gutenberg </span>
+
+                <h3>Pride and Prejudice</h3>
+
+                <p>Jane Austen</p>
+
+                <a
+                  href="https://www.gutenberg.org/ebooks/1342"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img src="assets/images/book-frankens.png" alt="Frankenstein" />
+
+              <div class="book-content">
+                <span class="book-source"> Project Gutenberg </span>
+
+                <h3>Frankenstein</h3>
+
+                <p>Mary Shelley</p>
+
+                <a
+                  href="https://www.gutenberg.org/ebooks/84"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img
+                src="assets/images/book-advanture.png"
+                alt="Sherlock Holmes"
+              />
+
+              <div class="book-content">
+                <span class="book-source"> Project Gutenberg </span>
+
+                <h3>Sherlock Holmes</h3>
+
+                <p>Arthur Conan Doyle</p>
+
+                <a
+                  href="https://www.gutenberg.org/ebooks/1661"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+<div class="book-card">
+              <img src="assets/images/book-moby.png" alt="Moby-Dick" />
+
+              <div class="book-content">
+                <span class="book-source"> Project Gutenberg </span>
+
+                <h3>Moby-Dick</h3>
+
+                <p>Herman Melville</p>
+
+                <a
+                  href="https://www.gutenberg.org/ebooks/2701"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Read Book
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Resources -->
+<section class="library-note">
+        <div class="container">
+          <div class="note-card">
+            <i class="bi bi-info-circle-fill"></i>
+
+            <div>
+              <h3>About Our Library</h3>
+
+              <p>
+                LearnHub does not host or distribute books directly. Every
+                recommended book links to its official publisher or a trusted
+                public domain library, ensuring legal and reliable access to
+                free educational resources.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+      <!-- Footer -->
+<footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-column">
+            <a href="index.html" class="footer-logo"> LearnHub </a>
+
+            <p>
+              LearnHub is a free learning platform that helps students discover
+              trusted courses, educational videos, and free learning resources.
+            </p>
+          </div>
+
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+
+            <ul>
+              <li><a href="index.html">Home</a></li>
+
+              <li><a href="courses.html">Courses</a></li>
+
+              <li><a href="library.html">Library</a></li>
+
+              <li><a href="about.html">About</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Resources</h3>
+
+            <ul>
+              <li>
+                <a href="https://cs50.harvard.edu/" target="_blank">
+                  CS50 Harvard
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.freecodecamp.org/" target="_blank">
+                  freeCodeCamp
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.gutenberg.org/" target="_blank">
+                  Project Gutenberg
+                </a>
+              </li>
+
+              <li>
+                <a href="https://developer.mozilla.org/" target="_blank">
+                  MDN Web Docs
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3>Contact</h3>
+
+            <ul>
+              <li>
+                <i class="bi bi-envelope-fill"></i>
+
+                learnhub@email.com
+              </li>
+
+              <li>
+                <i class="bi bi-github"></i>
+
+                github.com/learnhub
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 LearnHub. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
