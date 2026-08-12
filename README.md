@@ -8,9 +8,11 @@
 
 LearnHub is a modern web-based learning platform that helps students discover free programming courses, digital books, and educational resources from trusted learning platforms. The website is designed with a clean, responsive, and user-friendly interface to provide an enjoyable learning experience across desktop and mobile devices.
 
-🌐 **Live Demo**
+<br>
 
-https://maratusshalikhah004-cmyk.github.io/lernhub-website/
+🌐 **Live Demo :** [View Website](https://dataquantapm.github.io/Education_Platform/)
+
+<br>
 
 ---
 
