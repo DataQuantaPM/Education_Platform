@@ -18,6 +18,18 @@ This project was developed as part of the Web Programming 1 course. The main foc
 
 ---
 
+<br>
+
+# ℹ️ About the Project
+
+LearnHub provides several learning resources that can be explored through different sections of the website. Users can browse available courses, explore digital books, and view information about the platform.
+
+The website is designed with a simple and responsive interface so it can be accessed on different screen sizes.
+
+---
+
+<br>
+
 # ✨ Features
 
 - Home page with an introduction and featured learning resources
@@ -33,7 +45,9 @@ This project was developed as part of the Web Programming 1 course. The main foc
 - Form for user input
 ---
 
-# 📄 Pages
+<br>
+
+# 📄 Website Pages
 
 | Page | Description |
 |---|---|
@@ -46,70 +60,7 @@ This project was developed as part of the Web Programming 1 course. The main foc
 
 ---
 
-# 🛠️ Technologies Used
-
-- HTML5 for the structure and content of the website
-- CSS3 for styling, layout, and responsive design
-- JavaScript for website interactions
-- Bootstrap Icons for interface icons
-- Google Fonts for typography
-
----
-
-# 📚 Learning Resources
-
-LearnHub curates learning materials from trusted educational platforms such as:
-
-- Harvard CS50
-- freeCodeCamp
-- MDN Web Docs
-- Project Gutenberg
-- YouTube Education
-
----
-
-# 📂 Project Structure
-
-```text
-lernhub-website/
-│
-├── assets/
-│   ├── audio/
-│   │   └── learnhub-intro.mp3
-│   └── images/
-│
-├── index.html
-├── courses.html
-├── course-detail.html
-├── library.html
-├── book-detail.html
-├── about.html
-│
-├── styles.css
-├── script.js
-│
-└── README.md
-```
-
----
-
-# 🚀 Installation
-
-Clone this repository.
-
-```bash
-git clone https://github.com/maratusshalikhah004-cmyk/lernhub-website.git
-```
-
-Open the project directory.
-
-```bash
-cd lernhub-website
-```
-
-Run the project by opening **index.html** directly in your browser or use the **Live Server** extension in Visual Studio Code.
-
----
+<br>
 
 # 💻 Technologies
 
@@ -123,6 +74,54 @@ Run the project by opening **index.html** directly in your browser or use the **
 
 ---
 
+<br>
+
+# 📚 Learning Resources
+
+LearnHub provides references to several learning resources, including:
+
+- Harvard CS50
+- freeCodeCamp
+- MDN Web Docs
+- Project Gutenberg
+- YouTube educational content
+
+These resources are included to help users find additional materials for learning programming and related subjects.
+
+---
+
+<br>
+
+# 📂 Project Structure
+
+```text
+lernhub-website/
+│
+├── index.html
+├── about.html
+├── courses.html
+├── course-detail.html
+├── library.html
+├── book-detail.html
+│
+├── styles.css
+├── script.js
+│
+├── assets/
+│   └── images/
+│       └── ...
+│   └── audio/
+│       └── learnhub-intro.mp3
+│   └── video/
+│       └── video-introduction.mp4
+│
+└── README.md
+```
+
+---
+
+<br>
+
 # 🎯 Project Objectives
 
 - Provide a free programming learning platform.
@@ -131,29 +130,3 @@ Run the project by opening **index.html** directly in your browser or use the **
 - Practice modern front-end web development using HTML, CSS, and JavaScript.
 
 ---
-
-# 👩‍💻 Author
-
-**Maratus Shalikhah**
-
-Informatics Student
-
-Universitas Siber Asia
-
-GitHub:
-https://github.com/maratusshalikhah004-cmyk
-
----
-
-# 📄 License
-
-This project was developed for educational purposes as part of a university coursework project.
-
-## UAS Component Additions
-
-The final version includes the required demonstration components:
-- Semantic text formatting with `<strong>` and `<em>` on the course detail page.
-- A course information `<table>` on the course detail page.
-- Search `<form>` elements on the Courses and Library pages, integrated with JavaScript filtering.
-- A local educational audio introduction on the Home page.
-- A working embedded educational YouTube video on the Home page.
