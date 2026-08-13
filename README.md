@@ -6,7 +6,9 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-222222?style=for-the-badge&logo=github)
 
-LearnHub is a modern web-based learning platform that helps students discover free programming courses, digital books, and educational resources from trusted learning platforms. The website is designed with a clean, responsive, and user-friendly interface to provide an enjoyable learning experience across desktop and mobile devices.
+LearnHub is a web-based learning platform designed to help students find and access programming courses, educational videos, and digital learning resources in one place.
+
+This project was developed as part of the Web Programming 1 course. The main focus of the project is to apply basic web development concepts using HTML, CSS, and JavaScript while creating a simple learning platform.
 
 <br>
 
@@ -18,45 +20,39 @@ LearnHub is a modern web-based learning platform that helps students discover fr
 
 # ✨ Features
 
-- Responsive modern interface
-- Programming course recommendations
-- Digital library
-- Course detail page
-- Book detail page
-- About page
-- Introduction audio
-- Embedded introduction video
-- Search forms for courses and books
-- Course information table
-- Mobile navigation
-- Back to Top button
-- Smooth scrolling animation
-
+- Home page with an introduction and featured learning resources
+- Course page for browsing available courses
+- Course detail page with course information and learning materials
+- Digital library for exploring available books
+- Book detail page with additional information about selected books
+- About page describing LearnHub and its learning resources
+- Search and navigation features using JavaScript
+- Responsive layout
+- Audio and video learning content
+- Table for presenting structured information
+- Form for user input
 ---
 
 # 📄 Pages
 
 | Page | Description |
-|------|-------------|
-| Home | Hero section, statistics, featured courses, digital library, introduction video |
-| Courses | Programming course catalog with search functionality |
-| Course Detail | Course overview, sessions, learning outcomes, and resources |
-| Library | Digital programming book collection |
-| Book Detail | Book overview and additional learning resources |
-| About | LearnHub overview, mission, and learning resources |
+|---|---|
+| index.html | Main page containing the introduction and featured learning resources |
+| courses.html | Displays available courses |
+| course-detail.html | Provides detailed information about a selected course |
+| library.html | Displays the digital book collection |
+| book-detail.html | Provides detailed information about a selected book |
+| about.html | Contains information about LearnHub and its learning resources |
 
 ---
 
-# 🛠️ Built With
+# 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (ES6)
-- CSS Flexbox
-- CSS Grid
-- CSS Variables
-- Bootstrap Icons
-- Google Fonts (Poppins)
+- HTML5 for the structure and content of the website
+- CSS3 for styling, layout, and responsive design
+- JavaScript for website interactions
+- Bootstrap Icons for interface icons
+- Google Fonts for typography
 
 ---
 
